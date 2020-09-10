@@ -10,7 +10,7 @@
         <div class="container">
             <h1>Collecting Height</h1>
             <h3>Please share your height to get an estimate of population height trends</h3>
-            <form action="success.html" method="POST">
+            <form action="{{url_for('success')}}" method="POST">
                 <input title="Your email is secure" placeholder="Enter your email address" type="text"
                     name="email_name"> <br>
                 <input title="Your data is secure" placeholder="Enter your height (cm)" type="number" min="50" ,
